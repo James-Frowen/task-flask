@@ -1,0 +1,29 @@
+{
+  "name": "task-flask",
+  "version": "0.0.1",
+  "description": "simple desktop app to manage tasks",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "tsc",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/James-Frowen/task-flask.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/James-Frowen/task-flask/issues"
+  },
+  "homepage": "https://github.com/James-Frowen/task-flask#readme",
+  "dependencies": {
+    "@types/node": "^8.0.17",
+    "@types/react": "^16.0.0",
+    "@types/react-dom": "^15.5.2",
+    "electron": "^1.6.11",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "typescript": "^2.4.2"
+  }
+}
