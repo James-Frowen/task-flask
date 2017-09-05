@@ -2,7 +2,7 @@
   "name": "task-flask",
   "version": "0.0.1",
   "description": "simple desktop app to manage tasks",
-  "main": "index.js",
+  "main": "build/program.js",
   "scripts": {
     "prestart": "tsc",
     "start": "electron ."
@@ -21,9 +21,12 @@
     "@types/node": "^8.0.17",
     "@types/react": "^16.0.0",
     "@types/react-dom": "^15.5.2",
-    "electron": "^1.6.11",
+    "@types/react-router": "^4.0.15",
+    "@types/react-router-dom": "^4.0.7",
+    "electron": "1.6.11",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-router-dom": "^4.1.2",
     "typescript": "^2.4.2"
   }
 }

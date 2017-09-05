@@ -19,7 +19,8 @@ function createWindow() {
     mainWindow.loadURL(url.format({
         pathname: path.join(__dirname, "../assets/index.html"),
         protocol: 'file:',
-        slashes: true
+        slashes: true,
+        hash: "/"
     }));
 
     mainWindow.on('closed', function () {
